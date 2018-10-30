@@ -1,0 +1,9 @@
+/* pages/main/main.wxss */
+.container {
+  justify-content: center;
+}
+
+.main-text {
+  word-break: break-all;
+  font-size: 36rpx;
+}

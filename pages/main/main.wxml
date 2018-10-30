@@ -1,0 +1,4 @@
+<!--pages/main/main.wxml-->
+<view class="container">
+  <text class="main-text">{{who}}{{where}}{{how}}{{what}}</text>
+</view>

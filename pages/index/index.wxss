@@ -1,21 +1,29 @@
 /**index.wxss**/
-.userinfo {
+.index-title {
+  flex: 1;
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  align-items: center;
+  font-size: 50rpx;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.index-motion {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+@keyframes shake {
+  0% {
+    transform:translate(-20px);
+  }
+
+  100% {
+    transform:translate(20px);
+  }
 }
 
-.usermotto {
-  margin-top: 200px;
+.index-motion-shake {
+  animation: shake infinite 1s alternate ease-in-out;
 }
